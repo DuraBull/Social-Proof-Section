@@ -1,0 +1,49 @@
+.testimonial-cards
+    display: flex
+    gap: 2em
+
+.testimonial
+    display: flex
+    position: relative
+    top: 0
+    flex-direction: column
+    justify-content: center
+    gap: 1.5em
+    background: $dark-mag
+    color: $white
+    width: 360px
+    height: 234px
+    padding: 3em 2.8em
+    border-radius: 10px
+
+    &:nth-of-type(2)
+        margin-top: 1em
+    &:nth-of-type(3)
+        margin-top: 2em
+
+.test-buyer
+    display: flex
+    align-items: center
+    gap: 2em
+
+    img
+        width: 40px
+        border-radius: 100%
+
+.test-name
+    display: flex
+    flex-direction: column
+    gap: 5px
+
+    p
+        font-weight: $font-bold
+        font-size: 1.1em
+    h4
+        font-weight: $font-regular
+        color: $soft-pink
+        font-size: 1.1em
+
+.test-quote
+    line-height: 1.5em
+    font-weight: $font-medium
+    font-size: 1.05em
