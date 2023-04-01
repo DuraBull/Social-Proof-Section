@@ -339,7 +339,7 @@ h1 {
   }
   main {
     margin: auto;
-    gap: 4em;
+    gap: 3em;
   }
   .top, .review, .testimonial-cards {
     flex-direction: column;
@@ -359,14 +359,15 @@ h1 {
     padding: 0 1em 0.5em;
   }
   .product-desc p {
-    width: 325px;
+    width: 340px;
     margin: auto;
   }
   .review-cards {
     width: 350px;
   }
   .review {
-    width: 350px;
+    width: 330px;
+    padding: 1em 2em;
     text-align: center;
     gap: 1em;
   }
@@ -383,7 +384,7 @@ h1 {
     gap: 1em;
   }
   .testimonial {
-    padding: 5em 2.8em;
+    padding: 5em 2em 5em 2.8em;
     height: 250px;
     width: 330px;
   }
@@ -392,5 +393,8 @@ h1 {
   }
   .testimonial:nth-of-type(3) {
     margin: 0;
+  }
+  .test-buyer {
+    gap: 1.5em;
   }
 }/*# sourceMappingURL=main.css.map */
