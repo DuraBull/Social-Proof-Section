@@ -191,6 +191,9 @@ td, th {
 }
 
 body {
+  background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -278,12 +281,14 @@ h1 {
 }
 
 .product-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
   width: 450px;
 }
 .product-desc h1 {
   line-height: 0.8em;
   font-size: 3.85em;
-  padding-bottom: 0.42em;
 }
 .product-desc p {
   font-size: 1.2em;
@@ -332,6 +337,7 @@ h1 {
 
 @media screen and (max-width: 70em) {
   body {
+    background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
     margin: auto;
     width: 375px;
     height: 100%;
@@ -346,17 +352,18 @@ h1 {
     margin: auto;
   }
   .top {
-    gap: 3em;
+    gap: 2.5em;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
   .product-desc {
     width: 375px;
+    gap: 1.5em;
   }
   .product-desc h1 {
     font-size: 2.5em;
-    padding: 0 1em 0.5em;
+    padding: 0 1em;
   }
   .product-desc p {
     width: 340px;

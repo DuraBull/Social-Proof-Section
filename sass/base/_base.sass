@@ -1,6 +1,9 @@
 
     
 body
+    background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg")
+    background-repeat: no-repeat
+    background-position: top left, bottom right
     display: flex
     align-items: center
     justify-content: center
@@ -13,10 +16,12 @@ body
     font-family: $font-family
     @include font($font-regular)
 
+
 main
     display: flex
     flex-direction: column
     gap: 4.8em
+
 
 
 h1
