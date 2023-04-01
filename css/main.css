@@ -354,6 +354,10 @@ h1 {
   .product-desc {
     width: 375px;
   }
+  .product-desc h1 {
+    font-size: 2.5em;
+    padding: 0 1em 0.5em;
+  }
   .product-desc p {
     width: 325px;
     margin: auto;
@@ -379,7 +383,9 @@ h1 {
     gap: 1em;
   }
   .testimonial {
-    width: 340px;
+    padding: 5em 2.8em;
+    height: 250px;
+    width: 330px;
   }
   .testimonial:nth-of-type(2) {
     margin: 0;
